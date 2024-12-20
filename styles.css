@@ -1,0 +1,38 @@
+body{
+    background-color: #212121e5;
+    text-align: center;
+    justify-items: center;
+    min-height: 100vh;
+    align-content: center;
+}
+*{
+    color: rgb(217, 228, 183);
+}
+
+
+#weatherForCast{
+    background-color: #21212175;
+    max-width: 60vw;
+    padding: 2rem;   
+    border-radius: 6px;
+    padding-top: 0.5rem;
+}
+#inputCity{
+    padding: 0.5rem;
+    font-size: 1.1;
+    color: #212121;
+    border-radius: 5px;
+}
+#searchBtn{
+    padding: 0.5rem;
+    font-size: 1.1;
+    font-weight: 500;
+    color: #000000ee;
+    background-color: rgb(97, 4, 160);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
